@@ -46,6 +46,7 @@
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3743</dc:source>
+		<dc:source>https://books.google.com/books?id=wZ8rAQAAMAAJ</dc:source>
 		<dc:source>IA_URL</dc:source>
 		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
