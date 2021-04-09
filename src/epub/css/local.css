@@ -6,6 +6,10 @@ footer{
 	text-align: right;
 }
 
+i em{
+	font-style: normal;
+}
+
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
@@ -27,6 +31,10 @@ abbr.era{
 
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
+}
+
+#chapter-2-2 blockquote p{
+	text-indent: 0;
 }
 
 table{
