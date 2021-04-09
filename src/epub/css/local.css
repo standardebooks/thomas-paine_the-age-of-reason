@@ -20,3 +20,47 @@ footer{
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
+
+table{
+	border-spacing: 1em 0;
+	margin: 1em auto;
+}
+
+table thead td{
+	vertical-align: bottom;
+	border-bottom: 1px solid;
+}
+
+#chapter-2-1 table tbody td:nth-child(2),
+#chapter-2-1 table tbody td:nth-child(3){
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
+@supports(display: flex){
+	#chapter-2-1 table tbody tr:last-child td:first-child{
+		align-items: center;
+		display: flex;
+	}
+
+	#chapter-2-1 table tbody tr:last-child td:first-child p{
+		display: initial;
+	}
+}
+
+#chapter-2-1 table tbody tr:last-child td:first-child p:nth-child(2){
+	font-size: 5ex;
+}
+
+#chapter-2-1 table tbody tr:last-child td:first-child p{
+	text-indent: 0;
+	display: inline-block;
+}
+
+#chapter-2-1 table thead td:nth-child(3){
+	max-width: 10em;
+}
+
+#chapter-2-2 table tbody td:nth-of-type(odd){
+	text-align: right;
+}
