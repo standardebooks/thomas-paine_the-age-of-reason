@@ -6,14 +6,6 @@ footer{
 	text-align: right;
 }
 
-q{
-	font-style: italic;
-}
-
-q em{
-	font-style: normal;
-}
-
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
