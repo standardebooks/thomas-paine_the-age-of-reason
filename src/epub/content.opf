@@ -30,6 +30,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Age of Reason</dc:title>
 		<meta property="file-as" refines="#title">Age of Reason, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Being an Investigation of True and Fabulous Theology</dc:title>
+		<meta property="file-as" refines="#subtitle">Being an Investigation of True and Fabulous Theology</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Age of Reason: Being an Investigation of True and Fabulous Theology</dc:title>
+		<meta property="file-as" refines="#fulltitle">Age of Reason, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Philosophy and religion</dc:subject>
 		<dc:subject id="subject-2">Political science</dc:subject>
 		<dc:subject id="subject-3">Rationalism</dc:subject>
@@ -40,7 +47,7 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85111520</meta>
 		<meta property="se:subject">Philosophy</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Paine argues against the legitimacy of the Bible and institutionalized religion.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
@@ -48,7 +55,6 @@
 		<dc:source>https://www.gutenberg.org/ebooks/3743</dc:source>
 		<dc:source>https://books.google.com/books?id=wZ8rAQAAMAAJ</dc:source>
 		<dc:source>https://books.google.com/books?id=LXVYF8vi0o4C</dc:source>
-		<meta property="se:production-notes">Some quotations are in italics because they have insertions from Paine in parenthesis. We do this to differentiate from insertions by Conway in brackets.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Age_of_Reason</meta>
@@ -66,10 +72,10 @@
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<meta property="se:role" refines="#editor" scheme="marc:relators">aui</meta>
 		<meta property="se:role" refines="#editor" scheme="marc:relators">ann</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Benjamin West</dc:contributor>
+		<meta property="file-as" refines="#artist">West, Benjamin</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Benjamin_West</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50003451</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Norman M. Wolcott</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Wolcott, Norman M.</meta>
