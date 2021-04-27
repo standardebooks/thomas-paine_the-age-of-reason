@@ -48,8 +48,8 @@ table thead td{
 }
 
 #endnotes table,
-#chapter-2-1 table tbody td:nth-child(2),
-#chapter-2-1 table tbody td:nth-child(3){
+#chapter-2-1 table:first-of-type tbody td:nth-child(2),
+#chapter-2-1 table:first-of-type tbody td:nth-child(3){
 	font-variant-numeric: tabular-nums;
 	text-align: right;
 }
@@ -59,27 +59,36 @@ table thead td{
 }
 
 @supports(display: flex){
-	#chapter-2-1 table tbody tr:last-child td:first-child{
+	#chapter-2-1 table:first-of-type tbody tr:last-child td:first-child{
 		align-items: center;
 		display: flex;
 	}
 
-	#chapter-2-1 table tbody tr:last-child td:first-child p{
+	#chapter-2-1 table:first-of-type tbody tr:last-child td:first-child p{
 		display: initial;
 	}
 }
 
-#chapter-2-1 table tbody tr:last-child td:first-child p:nth-child(2){
+#chapter-2-1 table:first-of-type tbody tr:last-child td:first-child p:nth-child(2){
 	font-size: 5ex;
 }
 
-#chapter-2-1 table tbody tr:last-child td:first-child p{
+#chapter-2-1 table:first-of-type tbody tr:last-child td:first-child p{
 	text-indent: 0;
 	display: inline-block;
 }
 
+#chapter-2-1 table:nth-of-type(2) tbody td{
+	vertical-align: top;
+}
+
 #chapter-2-1 table thead td:nth-child(3){
 	max-width: 10em;
+}
+
+#chapter-2-1 table a[epub|type~="noteref"]{
+	font-size: initial;
+	vertical-align: initial;
 }
 
 #chapter-2-2 table tbody td:nth-of-type(odd){
