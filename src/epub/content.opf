@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/thomas-paine/the-age-of-reason</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-04-29T19:14:01Z</dc:date>
+		<meta property="dcterms:modified">2021-04-29T19:14:01Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -47,16 +47,21 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85111520</meta>
 		<meta property="se:subject">Philosophy</meta>
-		<dc:description id="description">Paine argues against the legitimacy of the Bible and institutionalized religion.</dc:description>
+		<dc:description id="description">Paine argues against the legitimacy of the Bible and institutional religion.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;The Age of Reason&lt;/i&gt; is an important work in the American Deist movement. &lt;a href="https://standardebooks.org/ebooks/thomas-paine"&gt;Paine&lt;/a&gt; worked on it continually for more than a decade, publishing it in three parts from 1794 through 1807. It quickly became a best-seller in post-Revolution America, spurring a revival in Deism as an alternative to the prevailing Christian influence.&lt;/p&gt;
+			&lt;p&gt;In clear, simple, and often funny language, Paine attempts to dissect the Bible’s supposed inaccuracies and hypocrisies. He portrays the Bible as a human construct, full of illogic, errors, and internal inconsistencies, as opposed to it being a text born of divine inspiration. On those arguments he pivots to decrying not just Christianity, but organized religion as a whole, as a human invention created to terrorize and enslave. Instead of accepting organized religion, he states that “his mind is his own church” and that man must embrace reason.&lt;/p&gt;
+			&lt;p&gt;While these arguments weren’t new to the wealthy and educated class of the era, they &lt;em&gt;were&lt;/em&gt; new to the poor masses. The book was at first distributed as cheap unbound pamphlets, making it easily accessible to the poor; and Paine’s simple language was written in way the poor could understand and sympathize with. This made the powerful very nervous, and, fearing that the book could cause a potential revolution, Paine and his publishers were suppressed.&lt;/p&gt;
+			&lt;p&gt;Paine wrote &lt;i&gt;The Age of Reason&lt;/i&gt; while living in Paris. In France, its thesis wasn’t revolutionary &lt;em&gt;enough&lt;/em&gt; for the bloodthirsty Jacobins; he was imprisoned there for ten months and only escaped execution by a stroke of luck. Meanwhile in Britain, the government considered the pamphlets seditious. British Booksellers and publishers involved in printing and distributing the pamphlets were repeatedly tried for seditious and blasphemous libel, with some even receiving sentences of hard labor.&lt;/p&gt;
+			&lt;p&gt;Paine began writing Part III after escaping France for America, but even the American elite thought the book too scandalous, with Thomas Jefferson—himself a Deist—advising Paine not to publish. Paine listened to Jefferson’s advice and held off publishing Part III for five years before publishing extracts as separate pamphlets. But once it was in the hands of Americans, it sparked a revival in Deism in the United States before being viciously attacked from all sides. Paine earned a reputation as an agitator and blasphemer that stuck to him for the rest of his life.&lt;/p&gt;
+			&lt;p&gt;Despite &lt;i&gt;The Age of Reason&lt;/i&gt;’s harsh reception—or perhaps, &lt;em&gt;because&lt;/em&gt; of it, and the controversy and discussion it caused—it achieved a popularity in England, France, and America that gave it incredible influence in those nation’s perspectives on organized religion.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3743</dc:source>
 		<dc:source>https://books.google.com/books?id=wZ8rAQAAMAAJ</dc:source>
 		<dc:source>https://books.google.com/books?id=LXVYF8vi0o4C</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">66968</meta>
+		<meta property="se:reading-ease.flesch">53.78</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Age_of_Reason</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-paine_the-age-of-reason</meta>
 		<dc:creator id="author">Thomas Paine</dc:creator>
@@ -84,6 +89,10 @@
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="sponsor">Threadable</dc:contributor>
+		<meta property="file-as" refines="#sponsor">Threadable</meta>
+		<meta property="se:url.homepage" refines="#sponsor">https://www.threadablebooks.com</meta>
+		<meta property="role" refines="#sponsor" scheme="marc:relators">spn</meta>
 		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com</meta>

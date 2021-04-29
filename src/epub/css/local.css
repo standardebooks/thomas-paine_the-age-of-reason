@@ -87,7 +87,7 @@ table thead td{
 }
 
 #chapter-2-1 table a[epub|type~="noteref"]{
-	font-size: initial;
+	font-size: 1em; /* `initial` is not supported by epub for font-size */
 	vertical-align: initial;
 }
 
