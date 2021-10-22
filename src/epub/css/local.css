@@ -33,6 +33,14 @@ i em{
 	display: none;
 }
 
+[epub|type~="bridgehead"]{
+	display: inline-block;
+	font-style: italic;
+	max-width: 60%;
+	text-align: justify;
+	text-indent: 0;
+}
+
 #chapter-2-2 blockquote p{
 	text-indent: 0;
 }
