@@ -51,8 +51,8 @@ table{
 }
 
 table thead td{
-	vertical-align: bottom;
 	border-bottom: 1px solid;
+	vertical-align: bottom;
 }
 
 #endnotes table,
@@ -82,8 +82,8 @@ table thead td{
 }
 
 #chapter-2-1 table:first-of-type tbody tr:last-child td:first-child p{
-	text-indent: 0;
 	display: inline-block;
+	text-indent: 0;
 }
 
 #chapter-2-1 table:nth-of-type(2) tbody td{
