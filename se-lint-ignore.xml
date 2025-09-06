@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<file path="endnotes.xhtml">
-		<ignore>
-			<code>t-024</code>
-			<reason>Quotation mark is part of the language.</reason>
-		</ignore>
-	</file>
 	<file path="chapter-2-1.xhtml">
 		<ignore>
 			<code>y-003</code>
 			<reason>Matched text is not a typo.</reason>
+		</ignore>
+	</file>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>t-024</code>
+			<reason>Quotation mark is part of the language.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
