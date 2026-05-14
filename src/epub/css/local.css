@@ -50,8 +50,10 @@ table{
 	margin: 1em auto;
 }
 
-table thead td{
+table thead th{
 	border-bottom: 1px solid;
+	font-weight: normal;
+	text-align: initial;
 	vertical-align: bottom;
 }
 
@@ -90,7 +92,7 @@ table thead td{
 	vertical-align: top;
 }
 
-#chapter-2-1 table thead td:nth-child(3){
+#chapter-2-1 table thead th:nth-child(3){
 	max-width: 10em;
 }
 
