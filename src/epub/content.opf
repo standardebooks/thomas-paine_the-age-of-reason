@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/thomas-paine/the-age-of-reason</dc:identifier>
 		<dc:date>2021-04-29T19:14:01Z</dc:date>
 		<meta property="dcterms:modified">2021-04-29T19:14:01Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -45,7 +46,7 @@
 		<meta property="term" refines="#subject-2">sh85104440</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85111520</meta>
-		<meta property="se:subject">Philosophy</meta>
+		<meta property="schema:genre">Philosophy</meta>
 		<dc:description id="description">Paine argues against the legitimacy of the Bible and institutional religion.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Age of Reason&lt;/i&gt; is an important work in the American Deist movement. &lt;a href="https://standardebooks.org/ebooks/thomas-paine"&gt;Paine&lt;/a&gt; worked on it continually for more than a decade, publishing it in three parts from 1794 through 1807. It quickly became a best-seller in post-Revolution America, spurring a revival in Deism as an alternative to the prevailing Christian influence.&lt;/p&gt;
@@ -61,41 +62,43 @@
 		<dc:source>https://books.google.com/books?id=wZ8rAQAAMAAJ</dc:source>
 		<dc:source>https://books.google.com/books?id=LXVYF8vi0o4C</dc:source>
 		<dc:source>https://books.google.com/books?id=knx2l2xUgWkC</dc:source>
-		<meta property="se:word-count">89120</meta>
-		<meta property="se:reading-ease.flesch">55.0</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Age_of_Reason</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-paine_the-age-of-reason</meta>
+		<meta property="schema:wordCount">89120</meta>
+		<meta property="schema:educationalLevel">55.0</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Age_of_Reason" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/thomas-paine_the-age-of-reason" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Thomas Paine</dc:creator>
 		<meta property="file-as" refines="#author">Paine, Thomas</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Thomas_Paine</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79021666</meta>
+		<link href="https://en.wikipedia.org/wiki/Thomas_Paine" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79021666.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="editor">Moncure Daniel Conway</dc:contributor>
 		<meta property="file-as" refines="#editor">Conway, Moncure Danile</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor">https://en.wikipedia.org/wiki/Moncure_D._Conway</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/n79083932</meta>
+		<link href="https://en.wikipedia.org/wiki/Moncure_D._Conway" refines="#editor" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79083932.html" refines="#editor" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Caspar David Friedrich</dc:contributor>
 		<meta property="file-as" refines="#artist">Friedrich, Caspar David</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Caspar_David_Friedrich</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79059754</meta>
+		<link href="https://en.wikipedia.org/wiki/Caspar_David_Friedrich" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79059754.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Norman M. Wolcott</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Wolcott, Norman M.</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="sponsor">Threadable</dc:contributor>
 		<meta property="file-as" refines="#sponsor">Threadable</meta>
 		<meta property="role" refines="#sponsor" scheme="marc:relators">spn</meta>
 		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
